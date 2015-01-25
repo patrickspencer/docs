@@ -32,8 +32,7 @@ https://raw.github.com/aubreyja/ww_install/master/install_webwork.sh`
 Run the following command `sudo bash install_webwork.sh`. It will ask you for
 the administrator password.
 
-Just accept all the defaults values
-by hitting enter.
+Just accept all the defaults values by hitting enter.
 
 ##  After the installation
 
