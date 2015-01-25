@@ -38,6 +38,7 @@ in the same directory as the webapp folder.
 ```
 cd webapp  
 python manage.py migrate --settings=appcore.settings.production
+python manage.py collectstatic --settings=appcore.settings.production
 ```
 
 ## link config file
@@ -59,3 +60,23 @@ Go to 127.0.0.1:8000
 
 uwsgi deploys the django app through the unix socket /tmp/mysite.sock. Nginx
 watches this file and broadcasts on port 8000.
+
+## Todo
+
+Setup postgres
+Setup memcache or redis
+Setup supervisord
+Setup fabric
+
+## Environment variables to consider
+
+django_settings_secret_key
+postgres_db
+postgres_user
+postgres_password
+redis_db
+redis_user
+redis_password
+
+
+
