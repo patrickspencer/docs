@@ -1,7 +1,7 @@
 # Instructions on setting up a new Debian from minimal install
 
 ## packages
-sudo git vim curl zsh build-essential stow xclip ttf-mscorefonts-installer
+sudo git vim curl zsh build-essential autoconf stow xclip ttf-mscorefonts-installer
 
 commands:
 sudo curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
